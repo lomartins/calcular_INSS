@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+
+body {
+	display: flex;
+	flex: 1;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	background-color: rgb(5, 5, 5);
+	font-family: 'Roboto', sans-serif;
+}
+
+.container {
+	display: flex;
+	flex: 1;
+	flex-direction: column;
+	align-items: right;
+	justify-content: center;
+	border-style: solid;
+	border-radius: 15px;
+	border-width:  1px;
+	background-color: rgb(0, 20, 35);
+	color: white;
+	padding: 50px;
+	width: 75%;
+	max-width: 700px;
+	min-width: 400px;
+	margin: 7% auto 0px auto; 
+}
+
+header#cabecario {
+	text-align: center;
+}
+
+p {
+	font-size: 16pt;
+}
+
+input[type=text] {
+	border-style: solid;
+	border-width: 1px;
+	border-radius: 2px;
+	width: 100%;
+	max-width: 700px;
+	height: 50px;
+	font-size: 14pt;
+	text-align: center;
+
+}
+input[type=button] {
+	font-size: 14pt;
+	font-weight: 700;
+	border-style: solid;
+	border-width: 1px
+	background-color: none;
+	color: #000000;
+	height: 50px;
+	width: 100%;
+	align-self: center;
+	margin-top: 10px;
+	transition: 0.2s;
+}
+input[type=button]:hover {
+	background-color: #000;
+	color: #fff;
+}
+
+table#valores {
+	font-size: 16pt;
+	padding: 10px;
+	margin-top: 50px;
+}

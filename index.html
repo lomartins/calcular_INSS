@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<title>Taxa INSS</title>
+	<meta charset="UTF-8" />
+	<link rel="stylesheet" href="style.css"/>
+		<script type="text/javascript" src="main.js"></script>
+</head>
+<body>
+	<div class="container">
+		<header id="cabecario">
+		<h1>Novo INSS</h1>
+		<h3>Calcular nova taxa do INSS</h3>
+		</header>
+		<table id="valores">
+		<tr><td>Salário:</td><td><input type="text" id="salario-input" onchange="calcTaxa()" placeholder="Digite o valor sem os centavos" /></td></tr>
+		<tr><td>Taxa:</td><td><input type="text" id="taxa-output" readonly="true"/></td></tr>
+		<tr><td>Valor da taxa:</td><td><input type="text" id="valor-output" readonly="true"/></td></tr>
+		<tr><td></td><td><input type="button" value="CALCULAR TAXA" onclick="calcTaxa()"></td></tr>
+		</table>
+
+	</div>
+
+</body>
+</html>
